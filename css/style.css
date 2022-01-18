@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+
+}
+
+#header {
+    background: url("../images/bg-pattern-intro-desktop.svg") no-repeat center/cover hsl(13, 100%, 72%);
+    padding: 2rem;
+
+    border-bottom-left-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.login,
+.signup {
+    background: darkgreen;
+    color: darkgreen;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem !important;
+}
+
+.mid {
+    text-align: center;
+    color: #fff;
+}
+
+.mid p {
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
+
+.mid .buttons a {
+    text-decoration: none;
+    background: #fff;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.mid a:hover {
+
+    background: darksalmon;
+}

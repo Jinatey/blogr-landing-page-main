@@ -8,6 +8,11 @@ body {
 
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 #header {
     background: url("../images/bg-pattern-intro-desktop.svg") no-repeat center/cover hsl(13, 100%, 72%);
     padding: 2rem;
@@ -60,6 +65,37 @@ body {
 }
 
 .mid a:hover {
-
     background: darksalmon;
+}
+
+.middlesection {
+    margin: 2rem 0;
+    padding: 5rem;
+    /* border: solid rgb(32, 17, 85); */
+    position: relative;
+    overflow: hidden;
+}
+
+.middlesection h1 {
+    text-align: center;
+}
+
+.midcontainer {
+    border: solid crimson;
+}
+
+.midleft p {
+    width: 58ch;
+    /* padding-right: 40rem; */
+}
+
+.midsecpic {
+    position: absolute;
+    top: 100px;
+    right: -140px;
+    /* margin-right: -8.5rem; */
+}
+
+.midsecpic img {
+    width: 500px;
 }

@@ -91,11 +91,57 @@ img {
 
 .midsecpic {
     position: absolute;
-    top: 100px;
+    top: 130px;
     right: -140px;
     /* margin-right: -8.5rem; */
 }
 
 .midsecpic img {
     width: 500px;
+}
+
+.thirdsection {
+    max-width: 1400px;
+    margin: auto;
+    /* border: solid yellow; */
+    margin-bottom: 10rem;
+    background: hsl(238, 76%, 32%);
+    color: #fff;
+    position: relative;
+}
+
+.thirdsection,
+.img1-container,
+.thirdsection .text {
+    height: 400px;
+}
+
+.img1-container {
+    position: relative;
+    overflow: hidden;
+    border: solid purple;
+    width: 100%;
+}
+
+.img1 {
+    position: absolute;
+    transform: scale(0.7) translate(-300px, -600px);
+}
+
+.img1 img {
+    width: 800px;
+}
+
+.img2 {
+    position: absolute;
+    top: -50px;
+    left: 40px;
+}
+
+.thirdsection .text {
+    width: 50%;
+    /* border: solid brown; */
+    position: absolute;
+    right: 0;
+    top: 0;
 }

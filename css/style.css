@@ -81,7 +81,9 @@ img {
 }
 
 .midcontainer {
-    border: solid crimson;
+    /* border: solid crimson; */
+
+    
 }
 
 .midleft p {
@@ -105,21 +107,23 @@ img {
     margin: auto;
     /* border: solid yellow; */
     margin-bottom: 10rem;
-    background: hsl(238, 76%, 32%);
+    background: hsl(237, 17%, 21%);
     color: #fff;
     position: relative;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .thirdsection,
 .img1-container,
 .thirdsection .text {
-    height: 400px;
+    height: 300px;
 }
 
 .img1-container {
     position: relative;
     overflow: hidden;
-    border: solid purple;
+    /* border: solid purple; */
     width: 100%;
 }
 
@@ -134,8 +138,9 @@ img {
 
 .img2 {
     position: absolute;
-    top: -50px;
-    left: 40px;
+    top: -120px;
+    left: 10px;
+    transform: scale(0.75);
 }
 
 .thirdsection .text {
@@ -143,5 +148,65 @@ img {
     /* border: solid brown; */
     position: absolute;
     right: 0;
-    top: 0;
+    top: 60px;
+    display: grid;
+
 }
+
+
+.fourthsection {
+    display: grid;
+    align-items: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fourthtexts {
+    display: grid;
+    gap: 1.2rem;
+}
+
+
+.fourthsection p {
+    width: 55ch;
+}
+
+.fourthimg {
+    margin-left: -17.5rem;
+}
+
+footer {
+    /* justify-content: center; */
+    justify-content: space-evenly;
+
+    height: 250px;
+    color: white;
+    background: hsl(237, 17%, 21%);
+    display: flex;
+
+    border-top-right-radius: 50px;
+    /* padding-left: 5rem; */
+    padding-top: 2rem;
+
+}
+
+.footerlinks {
+    /* padding: left 5rem; ; */
+    color: aqua;
+}
+
+footer a {
+    /* color: yellow; */
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.companysec {
+    /* color: yellow; */
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+
